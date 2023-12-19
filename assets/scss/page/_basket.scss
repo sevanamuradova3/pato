@@ -1,0 +1,48 @@
+#head{
+    position: relative;
+}
+#aboutInf{
+    #products{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 35px;
+        width: 100%;
+        .box{
+            width: 250px;
+            img{
+                width: 100%;
+            }
+            button{
+                color: #fff;
+                background-color: red;
+                transition: 1s;
+                padding: 10px;
+                border-radius: 20px;
+                border: 1px solid red;
+                display: flex;
+                gap: 10px;
+                justify-content: center;
+                align-items: center;
+                i{
+                    margin-top: 0.5rem;
+                    margin: 0 0.3rem;
+                }
+                &:hover{
+                    background-color: #fff;
+                    color: red;
+                }
+            }
+        }
+    }
+}
+#filtered{
+    margin: 25px 0;
+    .container{
+        .filter{
+            input{
+                cursor: pointer;
+            }
+        }
+    }
+}

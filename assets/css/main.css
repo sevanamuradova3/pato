@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  background-color: transparent;
+}
+header ul {
+  gap: 15px;
+}
+header .navbars {
+  justify-content: flex-end;
+}
+header .btn {
+  display: block;
+}
+
+#welcome {
+  width: 100%;
+  height: 700px;
+  background-image: url(https://preview.colorlib.com/theme/pato/images/master-slides-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#welcome .welcomeDiv {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+#welcome .welcomeDiv h1 {
+  font-family: cursive;
+  font-size: 50px;
+  margin-bottom: 28px;
+}
+#welcome .welcomeDiv h2 {
+  margin-bottom: 28px;
+  font-size: 90px;
+}
+#welcome .welcomeDiv button {
+  margin-bottom: 28px;
+  font-size: 12px;
+  color: red;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px 5px 20px;
+}
+
+#italian {
+  width: 100%;
+  height: auto;
+  margin-top: 28px;
+}
+#italian .italianColl {
+  text-align: center;
+  margin-top: 25px;
+}
+#italian .colText {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+#italian .colText h3 {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#italian .colText button {
+  border: none;
+  background-color: white;
+}
+#italian .colImg img {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  max-width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+
+#discover {
+  width: 100%;
+  height: auto;
+  background-image: url(https://preview.colorlib.com/theme/pato/images/bg-intro-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-attachment: fixed;
+  padding: 28px;
+}
+#discover .discoverText {
+  margin: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+#discover h3 {
+  margin-top: 25px;
+  color: red;
+  font-family: "Courier New", Courier, monospace;
+}
+#discover h1 {
+  margin: 28px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 70px;
+}
+
+#cards {
+  width: 100%;
+  height: auto;
+  padding: 0px 28px 0px 28px;
+}
+#cards .container {
+  padding: 28px;
+}
+#cards .item {
+  margin: 28px 0px 28px 0px;
+}
+#cards .item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+#cards .item button {
+  border: none;
+  background-color: white;
+}
+
+#rezervation {
+  width: 100%;
+  height: auto;
+  padding: 0px 28px 0px 28px;
+}
+#rezervation .head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 25px;
+}
+#rezervation .head h3 {
+  color: red;
+  font-family: Courgette;
+}
+#rezervation .head h1 {
+  margin: 0px 28px 0px 28px;
+}
+#rezervation .form .form-group {
+  margin-bottom: 20px;
+}
+#rezervation .form .form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+#rezervation .form .form-group input[type=text],
+#rezervation .form .form-group input[type=email],
+#rezervation .form .form-group input[type=date],
+#rezervation .form .form-group input[type=time],
+#rezervation .form .form-group input[type=number] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+#rezervation .form .form-group input[type=submit] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#rezervation .form .form-group input[type=submit]:hover {
+  background-color: #45a049;
+}
+#rezervation .formImg img {
+  max-width: 80%;
+  height: auto;
+}
+
+#about .container .text-about .headTxt {
+  font-size: 2rem;
+  font-weight: 500;
+}
+#about .container #products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+  width: 100%;
+}
+#about .container #products .box {
+  width: 250px;
+}
+#about .container #products .box img {
+  width: 100%;
+}
+#about .container #products .box button {
+  color: #fff;
+  background-color: green;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid green;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#about .container #products .box button i {
+  margin-top: 0.5rem;
+  margin: 0 0.3rem;
+}
+#about .container #products .box button:hover {
+  background-color: #fff;
+  color: green;
+}
+#about .container .button #loadMore {
+  color: #fff;
+  transition: 1s;
+  background-color: red;
+  padding: 10px;
+}
+#about .container .button #loadMore:hover {
+  background-color: #fff;
+  color: white;
+}
+
+#head {
+  position: relative;
+}
+
+#aboutInf #products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+  width: 100%;
+}
+#aboutInf #products .box {
+  width: 250px;
+}
+#aboutInf #products .box img {
+  width: 100%;
+}
+#aboutInf #products .box button {
+  color: #fff;
+  background-color: red;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid red;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#aboutInf #products .box button i {
+  margin-top: 0.5rem;
+  margin: 0 0.3rem;
+}
+#aboutInf #products .box button:hover {
+  background-color: #fff;
+  color: red;
+}
+
+#filtered {
+  margin: 25px 0;
+}
+#filtered .container .filter input {
+  cursor: pointer;
+}
